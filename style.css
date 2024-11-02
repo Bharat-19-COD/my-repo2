@@ -1,17 +1,27 @@
 
+/* styles.css */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #7218bb; 
-    color: #333; 
-    line-height: 1.6; 
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Font style */
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Line spacing */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding */
 }
 
-h1{
-    color: #59d6c8; 
-    text-align: center; 
-    margin-bottom: 20px;
-    font-size: 2.5em; /
+h1 {
+    color: #00796b; /* Color for the main heading */
+    text-align: center; /* Center the heading */
 }
 
+h5 {
+    color: #555; /* Color for the subheading */
+    text-align: center; /* Center the subheading */
+    margin-bottom: 20px; /* Space below the subheading */
+}
+
+p {
+    font-size: 1.2em; /* Font size for paragraphs */
+    text-align: center; /* Center align paragraphs */
+    margin: 10px 0; /* Margin around paragraphs */
+}
